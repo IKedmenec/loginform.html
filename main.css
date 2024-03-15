@@ -17,7 +17,7 @@ body {
         padding: 12px 20px;
         margin: 8px 0px;
         display: inline-block;
-        border: 1px soldi #ccc;
+        border: 1px solid #ccc;
         box-sizing: border-box;
     }
         button {
@@ -60,3 +60,6 @@ body {
         }
     }
     
+    button:hover {
+        opacity: 0.8;
+    }
