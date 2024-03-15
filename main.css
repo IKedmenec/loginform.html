@@ -4,7 +4,6 @@ body {
 
     form {
         border: 3px solid #f1f1f1;
-
     }
 
     img.avatar {
@@ -41,3 +40,23 @@ body {
             text-align: center;
             margin: 24px 0 12px 0;
         }
+
+        .container {
+            padding: 16px;
+        }
+
+
+        /* Extra mali ekrani - fix
+        Promjena stila za span i odustani button
+        */
+
+        @media screen and (max-width:300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+        .cancelbtn {
+            width: 100%;
+        }
+    }
+    
