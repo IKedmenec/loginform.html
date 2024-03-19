@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css" >
+    <link rel="stylesheet" href="./signuppage.css" >
     <title>Forma za prijavu</title>
 
 </head>
@@ -13,33 +13,34 @@
 
     <hr>
 
-    <h2>Molim unesite podatke u formu za kreiranje novog racuna</h2>
+    <p>Molim unesite podatke u formu za kreiranje novog racuna</p>
     
-    <form action="/" method="post" class="form">
+    <form action="/" method="post" class="form" style="border: 1px solid #ccc;">
 
     <div class="container">
            
             <label for="email"><b>Email</b></label>
-            <input class="text" id="email" type="text" required placeholder="* Unesite email" name="email">
+            <input class="text" type="text" placeholder="* Unesite email" name="email" required>
        
             <label for="psw"><b>Lozinka</b></label>
-            <input id="psw" type="password" required placeholder="* Unesite lozinku" name="psw">
+            <input type="password" placeholder="* Unesite lozinku" name="psw" required>
 
-            <label for="psw3"><b>Ponovite Lozinku</b></label>
-            <input id="psw3" type="password" required placeholder="* Ponovite Lozinku" name="psw3">
+            <label for="psw"><b>Ponovite Lozinku</b></label>
+            <input type="password" placeholder="* Ponovite Lozinku" name="psw3" required>
 
-            <button type="submit">Login</button>
-            <label> <input type="checkbox" name="remember">
+            
+            <label> <input type="checkbox" name="remember" style="margin-bottom: :15px;">
             Zapamti me
             </label>
+
+            <p>Prilikom kreiranja racuna pristajete na nase <a href="#">Uvijete koristenja.</a></p>
                  </div>
 
-                <div class="container" style="background-color: #f1f1f1;">
+                <div class="clearfix" style="background-color: #f1f1f1;">
                     <button type="button" class="cancelbtn">Odustani</button>
-                    <span class="psw">Prilikom kreiranja racuna pristajete na nase <a href="#">Uvijete koristenja.</a>
-                </span>
+                    <button type="submit" class="signupbtn">Prijava</button>
             </div>
+        </div>
         </form>
-
-</body>
+    </body>
 </html>
