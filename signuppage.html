@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" >
+    <title>Forma za prijavu</title>
+
+</head>
+<body>
+
+    <h1>Forma za prijavu</h1>
+
+    <hr>
+
+    <h2>Molim unesite podatke u formu za kreiranje novog racuna</h2>
+    
+    <form action="/" method="post" class="form">
+
+    <div class="container">
+           
+            <label for="email"><b>Email</b></label>
+            <input class="text" id="email" type="text" required placeholder="* Unesite email" name="email">
+       
+            <label for="psw"><b>Lozinka</b></label>
+            <input id="psw" type="password" required placeholder="* Unesite lozinku" name="psw">
+
+            <label for="psw3"><b>Ponovite Lozinku</b></label>
+            <input id="psw3" type="password" required placeholder="* Ponovite Lozinku" name="psw3">
+
+            <button type="submit">Login</button>
+            <label> <input type="checkbox" name="remember">
+            Zapamti me
+            </label>
+                 </div>
+
+                <div class="container" style="background-color: #f1f1f1;">
+                    <button type="button" class="cancelbtn">Odustani</button>
+                    <span class="psw">Prilikom kreiranja racuna pristajete na nase <a href="#">Uvijete koristenja.</a>
+                </span>
+            </div>
+        </form>
+
+</body>
+</html>
